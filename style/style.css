@@ -1,0 +1,133 @@
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+.boxButton {
+    width: 200px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10%;
+    margin-top: 50px;
+    background-color: grey;
+    color: white;
+}
+
+.boxButton p {
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+input {
+    width: 125px;
+    height: 50px;
+    margin-top: 10px;
+    background: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
+}
+
+
+/* Flags */
+.memoryContainer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.flagBox {
+    width: 100px;
+    height: 75px;
+    background-size: cover;
+}
+
+.questionContainer {
+    font-size: 20px;
+    width: 50%;
+}
+
+.flagContainer {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.questionContainer div,
+.flagContainer div {
+    margin-top: 20px;
+}
+
+.toggleBackground {
+    background-image: none !important;
+    border: 1px solid black;
+}
+
+.sweden {
+    background-image: url('./img/Sweden.gif');
+}
+
+.denmark {
+    background-image: url('./img/Denmark.gif');
+}
+
+.finland {
+    background-image: url('./img/Finland.gif');
+}
+
+.spain {
+    background-image: url('./img/Spain.gif');
+}
+
+.italy {
+    background-image: url('./img/Italy.gif');
+}
+
+.greece {
+    background-image: url('./img/Greece.gif');
+}
+
+.usa {
+    background-image: url('./img/Usa.gif');
+}
+
+.france {
+    background-image: url('./img/France.gif');
+}
+
+.norway {
+    background-image: url('./img/Norway.gif');
+}
+
+
+.incorrectFlag {
+    opacity: 20%;
+    border: 3px solid red;
+}
